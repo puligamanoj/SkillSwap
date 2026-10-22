@@ -1,6 +1,6 @@
 ﻿import { io } from 'socket.io-client';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://skillswap-1-ziz3.onrender.com/api';
 // Extract root server URL (e.g., http://localhost:5000)
 const SOCKET_SERVER_URL = API_BASE_URL.replace(/\/api\/?$/, '');
 
